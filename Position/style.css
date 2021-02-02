@@ -15,5 +15,7 @@
     height: 100px;
 }
 #dos{
-    background-color: green
+    background-color: green;
+    position: relative;
+    bottom: 15px;
 }
