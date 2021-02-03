@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+header {
+    background-color: rgb(253, 253, 130);
+}
+.nav{
+    float:right;
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+}
+header img{
+    width: 250px;
+    height: 150px;
+}
+.nav li{
+    display: inline-block;
+    font-size: 6rem;
+    display: inline-block;
+    font-size: 20px;
+    margin: 10px 0;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+main{
+
+}
+#barra-poke{
+    font-size: 2rem;
+    position: absolute;
+    background-color:rgb(253, 253, 130);
+    width: 30rem;
+    height: 60rem;
+    margin: 0;
+}
+#barra-poke img{
+    width: 25rem;
+    height: 25rem;
+}
+#descripcion-poke{
+    font-size: 3rem;
+    position: absolute;
+    background-image:url(../pics/pika_fondo.jpg);
+    left: 30rem;
+    height: 60rem;
+    width: 162rem;
+}
+.descripcion-pokeC{
+    font-size: 10rem;
+}
+footer{
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background-color:rgb(253, 253, 130);
+    top: 60rem;
+    height: 18rem;
+}
